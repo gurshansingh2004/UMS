@@ -1,0 +1,50 @@
+/* Global Body Background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* Card Styling */
+.custom-card {
+  max-width: 500px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Dashboard Cards */
+#studentDashboard .card,
+#adminDashboard .card {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styling */
+.table {
+  background-color: white;
+}
+
+/* Buttons */
+button.btn {
+  transition: all 0.3s ease;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+button.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Headers */
+h2, h3, h5 {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
